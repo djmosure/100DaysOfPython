@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Tip Calculator
 
 # Instructions
@@ -39,3 +40,7 @@ Each person should pay: $19.93
 # Solution
 
 [https://replit.com/@appbrewery/tip-calculator-end](https://replit.com/@appbrewery/tip-calculator-end)
+=======
+# 100DaysOfPython
+100 Days of Code: The Complete Python Pro Bootcamp
+>>>>>>> 9c14c53329b33a61e27c6b92ba17268c0a271a24
