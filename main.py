@@ -13,6 +13,8 @@ bill             = float(input("What was the total bill? $"))
 tip              = int(input("How much tip would you like to give? 10, 12, or 15?\n"))
 people           = int(input("How many people to split the bill?\n"))
 tip_percentage   = float(tip/100)
-individual_total = round((bill / people) * (1 + tip_percentage), 2)
+bill_per_person  = round((bill / people) * (1 + tip_percentage), 2)
+individual_total = "{:.2f}".format(bill_per_person)
+
 
 print(f"Each person should pay: ${individual_total}")
